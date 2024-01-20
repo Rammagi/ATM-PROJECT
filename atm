@@ -1,0 +1,19 @@
+card="1234 5977 8977 2345"
+pin="2784"
+amount=2500
+amount_start=500
+for w in (1,):
+    print("welcome to tmb bank")
+    print("insert your card")
+    
+
+    if(card=="1234 5777 8977 2345" and pin=="2704"):
+        print("enter your pin number:sucuess")
+        while amount_start<= amount:
+            print("ATM,ok done",amount_start)
+            amount_start+=500
+        print("please collect your cash",amount) 
+    elif(card !="1234 5777 8977 2345" or pin != "2704"):    
+        print("both pin and ATM card is wrong")
+    elif(card!="1234 5777 8977 2345" or pin!="2704"):
+        print("anyone pin or atm card is wrong")
